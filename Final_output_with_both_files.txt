@@ -1,0 +1,47 @@
+Ouptut with 1st data file:
+Client is sending Data values for K-Means Clustering with 243 data vectors
+Receiving CLUS Packet
+Sending CACK...
+The first centroid is : (-1.18,-1.02)
+The second centroid is : (1.1,1.08)
+Existing System
+
+Server is receving data vectors...
+Calculating Centroid by K-means Clustering Algorithm...
+Sending CLUS Packet with calculated Centroids...
+Starting timer to receive CACK Packet
+CACK received
+... Exiting System
+
+
+
+
+
+Ouptut with 2nd data file:
+Client is sending Data values for K-Means Clustering with 114 data vectors
+Receiving CLUS Packet
+Sending CACK...
+The first centroid is : (0.85,1.21)
+The second centroid is : (-1.21,-1.2)
+Existing System
+
+Server is receving data vectors...
+Calculating Centroid by K-means Clustering Algorithm...
+Sending CLUS Packet with calculated Centroids...
+Starting timer to receive CACK Packet
+CACK received
+... Exiting System
+
+
+
+
+Output for Invalid Type:
+Client is sending Data values for K-Means Clustering with 114 data vectors
+Invalid Packet Type
+Client socket timeout! Exception message while trying to receive RACK packet: Receive timed out
+
+
+
+Output for Timeout:
+Client is sending Data values for K-Means Clustering with 114 data vectors
+Client socket timeout! Exception message while trying to receive RACK packet: Receive timed out
